@@ -5,7 +5,7 @@
 
 }
 
-#title {
+.title {
     background-color: #333;
     color: white;
     padding-left: 30px;
@@ -59,16 +59,16 @@
     padding-right: 30px;
 }
 
-#req-entry-photo {
+.req-entry-photo {
     width: 40px;
     margin: 0px 5px 0px 5px;
 }
 
-#req-entry-text {
+.req-entry-text {
     flex: 2;
 }
 
-#users-photo {
+.users-photo {
     width: 30px;
     margin-right: 10px;
 }
