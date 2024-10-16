@@ -114,6 +114,19 @@ Date: 25/09/2024
     top: 50px;
   }
 
+  .bounce-1 {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes bounce-1 {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(20px); }
+      100% { transform: translateY(0); }
+  }
+
   .skills {
     width: 100%;
     min-width: 650px;
