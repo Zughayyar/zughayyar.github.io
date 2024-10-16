@@ -178,5 +178,11 @@ Date: 25/09/2024
     border-radius: 10px;
     font-size: 18px;
   }
+
+  .projects-box div:hover {
+    cursor: pointer;
+    border: 2px solid #f7923c;
+    color: #f7923c;
+  }
 }
 
