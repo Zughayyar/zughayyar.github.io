@@ -1,4 +1,9 @@
 
+.main-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
@@ -330,7 +335,7 @@
     right: 0;
     transform: translateY(-50%);
     border: 100px solid;
-    border-color: var(--bs-light) var(--bs-light) var(--bs-light) transparent;
+    border-color: var(--bs-light) var (--bs-light) var(--bs-light) transparent;
     z-index: -1;
 }
 /*** Experience End ***/
@@ -451,6 +456,7 @@
     top: 50%;
     right: 0;
     transform: translateY(-50%);
+    width: 60px;
     width: 60px;
     height: 60px;
     display: flex;
