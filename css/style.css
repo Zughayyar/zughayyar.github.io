@@ -201,6 +201,7 @@
     
 }
 
+/*noinspection ALL*/
 .navbar-nav .nav-link span {
     width: 40px; 
     height: 40px;
@@ -214,6 +215,7 @@
     transition: 0.5s;
 }
 
+/*noinspection CssUnresolvedCustomProperty*/
 .nav-section .navbar .navbar-nav .nav-item {
     height: 40px;
     padding: 0;
@@ -335,7 +337,7 @@
     right: 0;
     transform: translateY(-50%);
     border: 100px solid;
-    border-color: var(--bs-light) var (--bs-light) var(--bs-light) transparent;
+    border-color: var(--bs-light) var(--bs-light) var(--bs-light) transparent;
     z-index: -1;
 }
 /*** Experience End ***/
@@ -456,7 +458,6 @@
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    width: 60px;
     width: 60px;
     height: 60px;
     display: flex;
