@@ -45,7 +45,10 @@
                 <div class="navbar-nav flex-column">
                     <a href="#pigraHome" class="nav-item nav-link active"><span class="fa fa-home"></span> Home</a>
                     <a href="#pigraAbout" class="nav-item nav-link"><span class="far fa-address-card"></span> About</a>
+                    <a href="#pigraEducation" class="nav-item nav-link"><span class="fas fa-graduation-cap"></span> Education</a>
+                    <a href="#pigraSkills" class="nav-item nav-link"><span class="fas fa-code"></span> Skills</a>
                     <a href="#pigraService" class="nav-item nav-link"><span class="fab fa-servicestack"></span> Service</a>
+                    <a href="#pigraPortfolio" class="nav-item nav-link"><span class="fas fa-briefcase"></span> Portfolio</a>
                 </div>
             </nav>
         </div>
@@ -149,7 +152,7 @@
         <!-- About End -->
 
         <!-- Education Start -->
-        <div class="container-fluid">
+        <div class="container-fluid" id="pigraEducation">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-lg-3">
@@ -196,7 +199,7 @@
         <!-- Education End -->
 
         <!-- Skills Start -->
-        <div class="container-fluid">
+        <div class="container-fluid" id="pigraSkills">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-lg-3">
@@ -359,7 +362,7 @@
         <!-- Service End -->
 
         <!-- Portfolio Start -->
-        <div class="container-fluid">
+        <div class="container-fluid" id="pigraPortfolio">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-lg-3">
@@ -372,62 +375,113 @@
                     </div>
                     <div class="col-lg-9">
                         <div class="portfolio-content h-100 pt-6 ps-6 pb-6">
-                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
-                                        <h4 class="text-body">FirmHub</h4>
-                                        <h1 class="display-6 mb-0">All-in-one Project Management System</h1>
+                            <div class="portfolio-item py-4 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                                <a href="#" class="text-decoration-none" style="display: block; margin-bottom: 1.5rem; transition: all 0.3s ease;" onmouseover="this.style.color='var(--bs-primary)'" onmouseout="this.style.color='inherit'">
+                                    <h2 class="display-6 mb-0" style="display: inline;">FirmHub <i class="fas fa-external-link-alt ms-2" style="font-size: 0.6em;"></i></h2>
+                                </a>
+                                <div class="row g-3">
+                                    <div class="col-md-4">
+                                        <div class="bg-light rounded p-3 h-100">
+                                            <div class="text-primary mb-2"><i class="fas fa-info-circle"></i></div>
+                                            <h6 class="fw-bold mb-2">Description</h6>
+                                            <p class="mb-0 small">All-in-one Project Management System for construction and infrastructure projects.</p>
+                                        </div>
                                     </div>
-                                    <div class="col-9 col-xl-4">
-                                        <div class="portfolio-img">
-                                            <div class="portfolio-img-inner">
-                                                <img src="img/Portfolio-1.jpg" class="img-fluid" alt="Image">
+                                    <div class="col-md-4">
+                                        <div class="bg-light rounded p-3 h-100">
+                                            <div class="text-primary mb-2"><i class="fas fa-laptop-code"></i></div>
+                                            <h6 class="fw-bold mb-2">Tech Stack</h6>
+                                            <div>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">Django</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">Python</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">MySQL</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3 col-xl-2">
-                                        <div class="view-img">
-                                            <a href="img/Portfolio-1.jpg" class="btn btn-primary btn-lg-square" data-lightbox="Portfolio-1"><i class="fas fa-plus"></i></a>
+                                    <div class="col-md-4">
+                                        <div class="bg-light rounded p-3 h-100">
+                                            <div class="text-primary mb-2"><i class="fas fa-tools"></i></div>
+                                            <h6 class="fw-bold mb-2">Tools & Libraries</h6>
+                                            <div>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">Jira</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">Github</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">Bootstrap</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">AWS</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
-                                        <h4 class="text-body">Certificate Manager</h4>
-                                        <h1 class="display-6 mb-0">Automated Certificate Issuance System</h1>
+                            <div class="portfolio-item py-4 border-bottom wow fadeInUp" data-wow-delay="0.3s">
+                                <a href="#" class="text-decoration-none" style="display: block; margin-bottom: 1.5rem; transition: all 0.3s ease;" onmouseover="this.style.color='var(--bs-primary)'" onmouseout="this.style.color='inherit'">
+                                    <h2 class="display-6 mb-0" style="display: inline;">Certificate Manager <i class="fas fa-external-link-alt ms-2" style="font-size: 0.6em;"></i></h2>
+                                </a>
+                                <div class="row g-3">
+                                    <div class="col-md-4">
+                                        <div class="bg-light rounded p-3 h-100">
+                                            <div class="text-primary mb-2"><i class="fas fa-info-circle"></i></div>
+                                            <h6 class="fw-bold mb-2">Description</h6>
+                                            <p class="mb-0 small">Automated system designed to streamline certificates issuance for schools and academies.</p>
+                                        </div>
                                     </div>
-                                    <div class="col-9 col-xl-4">
-                                        <div class="portfolio-img">
-                                            <div class="portfolio-img-inner">
-                                                <img src="img/portfolio-2.jpg" class="img-fluid" alt="Image">
+                                    <div class="col-md-4">
+                                        <div class="bg-light rounded p-3 h-100">
+                                            <div class="text-primary mb-2"><i class="fas fa-laptop-code"></i></div>
+                                            <h6 class="fw-bold mb-2">Tech Stack</h6>
+                                            <div>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">Spring Boot</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">Spring Security</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">MySQL</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3 col-xl-2">
-                                        <div class="view-img">
-                                            <a href="img/portfolio-2.jpg" class="btn btn-primary btn-lg-square" data-lightbox="portfolio-2"><i class="fas fa-plus"></i></a>
+                                    <div class="col-md-4">
+                                        <div class="bg-light rounded p-3 h-100">
+                                            <div class="text-primary mb-2"><i class="fas fa-tools"></i></div>
+                                            <h6 class="fw-bold mb-2">Tools & Libraries</h6>
+                                            <div>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">Jira</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">Github</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">AWS</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">Thymeleaf</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="portfolio-item py-5 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
-                                        <h4 class="text-body">Medi-Tracker</h4>
-                                        <h1 class="display-6 mb-0">Clinic Management System</h1>
+                            <div class="portfolio-item py-4 wow fadeInUp" data-wow-delay="0.5s">
+                                <a href="#" class="text-decoration-none" style="display: block; margin-bottom: 1.5rem; transition: all 0.3s ease;" onmouseover="this.style.color='var(--bs-primary)'" onmouseout="this.style.color='inherit'">
+                                    <h2 class="display-6 mb-0" style="display: inline;">MediTracker <i class="fas fa-external-link-alt ms-2" style="font-size: 0.6em;"></i></h2>
+                                </a>
+                                <div class="row g-3">
+                                    <div class="col-md-4">
+                                        <div class="bg-light rounded p-3 h-100">
+                                            <div class="text-primary mb-2"><i class="fas fa-info-circle"></i></div>
+                                            <h6 class="fw-bold mb-2">Description</h6>
+                                            <p class="mb-0 small">Clinic Management System with secure scheduling, medical record, and prescriptions.</p>
+                                        </div>
                                     </div>
-                                    <div class="col-9 col-xl-4">
-                                        <div class="portfolio-img">
-                                            <div class="portfolio-img-inner">
-                                                <img src="img/portfolio-3.jpg" class="img-fluid" alt="Image">
+                                    <div class="col-md-4">
+                                        <div class="bg-light rounded p-3 h-100">
+                                            <div class="text-primary mb-2"><i class="fas fa-laptop-code"></i></div>
+                                            <h6 class="fw-bold mb-2">Tech Stack</h6>
+                                            <div>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">ExpressJS</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">ReactJS</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">MongoDB</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">NodeJS</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3 col-xl-2">
-                                        <div class="view-img">
-                                            <a href="img/portfolio-3.jpg" class="btn btn-primary btn-lg-square" data-lightbox="portfolio-3"><i class="fas fa-plus"></i></a>
+                                    <div class="col-md-4">
+                                        <div class="bg-light rounded p-3 h-100">
+                                            <div class="text-primary mb-2"><i class="fas fa-tools"></i></div>
+                                            <h6 class="fw-bold mb-2">Tools & Libraries</h6>
+                                            <div>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">Jira</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">Github</span>
+                                                <span class="badge bg-primary me-1 mb-1" style="min-width: 90px; text-align: center;">AWS</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
